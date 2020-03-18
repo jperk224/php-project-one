@@ -98,8 +98,7 @@ $quotes = array(
     ),
     array( // index 9
         "quote" => "I never gave a thought to the Hall of Fame as I was going through my career. 
-                    My goal as a baseball player was very simple: All I wanted to do was try to get better for my next start. 
-                    And to think it all ended up here, it's pretty cool.", 
+                    My goal as a baseball player was very simple: All I wanted to do was try to get better.", 
         "source" => "Greg Maddux",
         "citation" => "Baseball Hall of Fame - Cooperstown, NY",
         "year" => 2014, 
