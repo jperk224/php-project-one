@@ -13,7 +13,7 @@ include 'inc/functions.php';
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<?php echo("<body style=\"background-color:rgb(" . randomColor() . "," . randomColor() . "," . randomColor() . ");\">"); ?>
   <div class="container">
     <div id="quote-box">
     <!-- Call the printQuote function to display a random quote object -->

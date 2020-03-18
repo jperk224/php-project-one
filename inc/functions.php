@@ -32,7 +32,7 @@ function printQuote($array) {   // argument needs to be the multi-demensional ar
     // String output layout taken from https://teamtreehouse.com/projects/random-quote-generator-in-php
     
     // Output the quote with appropriate HTML tags and attributes
-    echo("<p class=\"quote\">" . $randomQuote["quote"] . "\n");
+    echo("<p class=\"quote\">" . $randomQuote["quote"] . "\n");    
     
     // Output the source with the appropriate HTML tags and attributes
     echo("<p class=\"source\">" . $randomQuote["source"]);
@@ -48,5 +48,19 @@ function printQuote($array) {   // argument needs to be the multi-demensional ar
     }
 
     echo("</p>");
+
+    // Loop through tags and display them using the source css class for generic formating
+    echo("<p>");
+    foreach($randomQuote["tags"] as $tag) {
+        echo(" " . $tag . " ");
+    }
+    echo("</p>");
+}
+
+// Create a function randomColor to generate a random color (using rgb 0 - 255)
+// Will be used to generate random background colors on each click
+function randomColor() {
+    $randomRGB = rand(0, 255);
+    return $randomRGB;
 }
 ?>
