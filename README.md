@@ -1,5 +1,5 @@
-#Team Treehouse PHP Techdegree Project One
+# Team Treehouse PHP Techdegree Project One
 
-##Random Quote Generator
+## Random Quote Generator
 
-###It's Neat.
+### It's Neat.
