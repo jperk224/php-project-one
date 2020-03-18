@@ -5,14 +5,16 @@
 // Each inner array element should be an associative array
 // this array resides in datastore.php
 include 'datastore.php';
-//var_dump($quotes);
 
-
-
-
-// Create the getRandomQuuote function and name it getRandomQuote
-
-
+// Create the getRandomQuote function and name it getRandomQuote
+// Take in an multi-demensional array and return a random array element
+function getRandomQuote($array) {
+    // local random index value
+    // rand is inclusive so array size - 1 will prevent index out of bounds error
+    // use count() to get the number of array elements (i.e. independent nested quote arrays)
+    $randomIndex = rand(0,(count($array) - 1));
+    return $array[$randomIndex];    // return the element of the random index
+}
 
 // Create the printQuote funtion and name it printQuote
 
