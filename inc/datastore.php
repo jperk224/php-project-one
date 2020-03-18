@@ -6,8 +6,6 @@ $quotes = array(
     array( // index 0
         "quote" => "Baseball is ninety percent mental. The other half is physical.", 
         "source" => "Yogi Berra",
-        "citation" => NULL,
-        "year" => NULL, 
         "tags" => array(
             "#sports", 
             "#humor",
@@ -17,8 +15,6 @@ $quotes = array(
     array( // index 1
         "quote" => "Baseball was, is, and always will be the best game in the world to me.", 
         "source" => "Babe Ruth",
-        "citation" => NULL,
-        "year" => NULL, 
         "tags" => array(
             "#sports",
             "#baseball",
@@ -27,8 +23,6 @@ $quotes = array(
     array( // index 2
         "quote" => "Playing baseball for a living is like having a license to steal.", 
         "source" => "Pete Rose",
-        "citation" => NULL,
-        "year" => NULL, 
         "tags" => array(
             "#sports", 
             "#humor",
@@ -38,8 +32,6 @@ $quotes = array(
     array( // index 3
         "quote" => "The way to make coaches think you're in shape in the spring is to get a tan.", 
         "source" => "Whitey Ford",
-        "citation" => NULL,
-        "year" => NULL, 
         "tags" => array(
             "#sports", 
             "#humor",
@@ -49,8 +41,6 @@ $quotes = array(
     array( // index 4
         "quote" => "I think I was the best baseball player I ever saw.", 
         "source" => "Willie Mays",
-        "citation" => NULL,
-        "year" => NULL, 
         "tags" => array(
             "#sports", 
             "#humor",
@@ -86,9 +76,7 @@ $quotes = array(
     ),
     array( // index 7
         "quote" => "Age is no barrier. It’s a limitation you put on your mind.", 
-        "source" => "Jackie Joyner-Kersee",
-        "citation" => NULL,
-        "year" => NULL, 
+        "source" => "Jackie Joyner-Kersee", 
         "tags" => array(
             "#sports", 
             "#motivation",
